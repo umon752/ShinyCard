@@ -5,7 +5,7 @@ const body = document.querySelector("body");
 const card = document.querySelector(".card");
 const cardBlink = document.querySelector(".card__blink");
 const cardPic = document.querySelector(".card__pic");
-const cardStereo = document.querySelector(".card__stereo");
+// const cardStereo = document.querySelector(".card__stereo");
 
 
 
@@ -67,7 +67,7 @@ const track = (e) => {
     cardPic.style.transform = 'translateY(' + layerX + 'px) translateX(' + layerY + 'px)';
     cardBlink.style.backgroundImage = 'linear-gradient(' + blinkX + 'deg, transparent 32%, rgba(255, 255, 255, 0.8) 40%, transparent 72%)';
     cardBlink.style.transform = 'translateY(' + blinkY + 'px) translateX(' + layerY + 'px)';
-    cardStereo.style.transform = 'translateY(' + lightX + 'px) translateX(' + lightY + 'px)';
+    // cardStereo.style.transform = 'translateY(' + lightX + 'px) translateX(' + lightY + 'px)';
 }
 
 /** 監聽滑鼠移動事件 **/
